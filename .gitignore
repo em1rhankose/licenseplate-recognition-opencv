@@ -1,0 +1,25 @@
+# --- Python Kalıntıları ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# --- Jupyter Notebook Yedekleri ---
+.ipynb_checkpoints/
+checkpoint/
+
+# --- IDE (VS Code, PyCharm) Ayarları ---
+.vscode/
+.idea/
+
+# --- İşletim Sistemi ve Geçici Dosyalar ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Projeye Özel Engelleme ---
+# Eğer veritabanı yedeği veya çok büyük test videoları alırsan buraya ekleyebilirsin
+*.log
